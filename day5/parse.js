@@ -1,5 +1,5 @@
 const fs = require("fs");
-const input = fs.readFileSync("./input.txt", "utf-8");
+const input = fs.readFileSync("./input_example.txt", "utf-8");
 
 const ranges = input
   .split("\n")
